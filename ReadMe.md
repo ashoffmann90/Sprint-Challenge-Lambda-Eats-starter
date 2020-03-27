@@ -17,7 +17,12 @@ Edit this document to include your answers after each question. Make sure to lea
 It streamlines the Route path and render, so that instead of having the path and render properties, you only need a variable set to useRouteMatch(whatever/you're/matching).
 
 2. How would you explain form validation to someone who has never programmed before?
+
+Form validation ensures that the data that is put into the form is in the correct format you're looking for. Things like; making sure the Terms and Conditions are agreed to before the user can submit the form, or making sure the password is strong enough, or making sure that the zip code is a 5 character number.
+
 3. In 1-2 sentences, define end to end testing. 
+
+End to End testing allows us to make sure the Front End is working correctly. It allows us to test things that the user will be interacting with.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section **will** prevent you from passing this challenge.
 
@@ -53,9 +58,9 @@ Your MVP should include, at a minimum, the following components.
 
 Implement the following tests in Cypress:
 
-- [ ] test that you can add text to the box
-- [ ] test that you can select multiple toppings
-- [ ] test that you can submit the form
+- [x] test that you can add text to the box
+- [x] test that you can select multiple toppings
+- [x] test that you can submit the form
 
 You may use the following wireframe (also in a folder above) as guidance as you design your site but it is not required that you do so.
 
@@ -97,9 +102,9 @@ One of your goals is to return a database record of the order - for this you'll 
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your TL will count the project as complete by merging the branch back into master.
+- [x] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo). **Please don't merge your own pull request**
+- [x] Add your project manager as a reviewer on the pull-request
+- [x] Your TL will count the project as complete by merging the branch back into master.
 
 ## Grading rubric
 
