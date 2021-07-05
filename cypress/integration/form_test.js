@@ -1,0 +1,25 @@
+describe('Testing pizza form', function() {
+    beforeEach(function() {
+        cy.visit('http://localhost:3000/pizza/')
+    })
+    it('Tests form input, checkboxes, submit button', function () {
+        cy.get("input[name='name']")
+        .type("Drew")
+        .should('have.value', 'Drew')
+        cy.get("input[name='pineapple']")
+        .check()
+        .should('be.checked')
+        cy.get("input[name='jalapenos']")
+        .check()
+        .should('be.checked')
+        cy.get("input[name='sauerkraut']")
+        .check()
+        .should('be.checked')
+        cy.get("input[name='garlic']")
+        .check()
+        .should('be.checked')
+        cy.get("[data-cy='submit']")
+        .click()
+    })
+
+})
